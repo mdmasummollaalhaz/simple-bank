@@ -11,12 +11,11 @@ document.getElementById('login-submit').addEventListener('click', function(){
     const userPassword = passwordField.value;
     // console.log(userPassword);
 
-
-    if(userEmail == 'masummolla@gmail.com' && userPassword == 'masum22'){
-        console.log('valid user');
+    // Get user - Email & Password
+    if(userEmail == 'masummolla@gmail.com' && userPassword == '111'){
+        // console.log('valid user');
+        window.location.href = "banking.html";
         
     }
 
-    
-    
 });
